@@ -114,6 +114,6 @@ elif compWins == 2:
     with open(path, 'w') as file:
         file.write(output)
     print('Tough luck. You Lost :(')
-    print('You can find the results of the match in ' + os.getcwd())
+    print('\nYou can find the results of the match in ' + os.getcwd())
 
 
